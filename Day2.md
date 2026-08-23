@@ -2,23 +2,6 @@
 
 **Virtualization · Regions · Availability Zones · High Availability & Fault Tolerance**
 
-Study notes covering how one physical server becomes many, where those servers live, and how cloud applications stay available when something fails.
-
----
-
-## 📑 Contents
-
-1. [Virtualization](#1-virtualization)
-2. [Important Terms](#2-important-terms)
-3. [Virtualization Example](#3-virtualization-example)
-4. [Advantages of Virtualization](#4-advantages-of-virtualization)
-5. [Virtualization and Cloud Computing](#5-virtualization-and-cloud-computing)
-6. [Region](#6-region)
-7. [Availability Zone (AZ)](#7-availability-zone-az)
-8. [High Availability (HA)](#8-high-availability-ha)
-9. [Fault Tolerance (FT)](#9-fault-tolerance-ft)
-10. [High Availability vs Fault Tolerance](#10-high-availability-vs-fault-tolerance)
-
 ---
 
 ## 1. Virtualization
