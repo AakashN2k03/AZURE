@@ -1,6 +1,6 @@
 # ☁️ Cloud Computing Notes
 
-**Virtualization · Regions · Availability Zones · High Availability & Fault Tolerance**
+**Virtualization · Regions · Availability Zones · High Availability · Fault Tolerance · Disaster Recovery · Load Balancing**
 
 ---
 
@@ -308,3 +308,80 @@ Both High Availability and Fault Tolerance aim to keep an application available,
 | **Approach** | Recover quickly | Tolerate the failure |
 | **Cost** | Usually lower | Usually higher |
 | **Redundancy** | Uses redundant resources | Often requires more extensive redundancy |
+
+
+## 1. Disaster Recovery (DR)
+
+### Definition
+
+Disaster Recovery is the process of restoring applications, data, and systems after a major failure or disaster.
+
+### Examples of Disasters
+
+- Data center failure
+- Natural disaster
+- Cyberattack
+- Hardware/software failure
+- Data loss
+
+### Basic Flow
+
+```
+Disaster
+   ↓
+Backup / Secondary System
+   ↓
+Recovery
+   ↓
+Application Running
+```
+
+### Important Concepts
+
+**Backup**
+
+A copy of data stored separately so it can be restored.
+
+**RTO (Recovery Time Objective)**
+
+How quickly the system should be restored.
+
+> RTO = How much downtime can we tolerate?
+
+**RPO (Recovery Point Objective)**
+
+How much data loss is acceptable.
+
+> RPO = How much data can we afford to lose?
+
+### Key Point
+
+> Disaster Recovery = Recover the system after a major disaster.
+
+---
+
+## 2. Load Balancing
+
+### Definition
+
+Load Balancing is the process of distributing incoming traffic across multiple servers.
+
+### Basic Flow
+
+```
+             Users
+               ↓
+         Load Balancer
+               ↓
+      ┌────────┼────────┐
+      ↓        ↓        ↓
+   Server 1 Server 2 Server 3
+```
+
+### Why Use Load Balancing?
+
+- Distributes traffic
+- Prevents server overload
+- Improves performance
+- Improves availability
+- Can redirect traffic if a server fails
