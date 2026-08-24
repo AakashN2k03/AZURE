@@ -1,4 +1,4 @@
-# Scalability and Elasticity
+# Scalability and Elasticity and Cloud Service Models
 
 ## 1. Scalability
 
@@ -125,3 +125,122 @@ Automatically remove extra servers
 > **Scalability = Long-term growth 📈**
 
 > **Elasticity = Current/real-time demand 🔄.**
+
+
+# IaaS, PaaS & SaaS
+
+## 1. IaaS — Infrastructure as a Service
+
+### Definition
+
+**IaaS provides basic cloud infrastructure such as Virtual Machines, storage, and networking.**
+
+### You Manage
+
+* Operating System
+* Applications
+* Data
+
+### Cloud Provider Manages
+
+* Physical servers
+* Networking hardware
+* Storage infrastructure
+* Data center
+
+### Example
+
+* Azure Virtual Machines
+* AWS EC2
+* Google Compute Engine
+
+```text
+You
+ ↓
+OS → Application → Data
+
+Cloud Provider
+ ↓
+VM → Storage → Network → Hardware
+```
+
+> **IaaS = Rent infrastructure**
+
+---
+
+## 2. PaaS — Platform as a Service
+
+### Definition
+
+**PaaS provides a ready-to-use platform for developing, deploying, and running applications.**
+
+### You Manage
+
+* Application / Code
+* Data
+
+### Cloud Provider Manages
+
+* Runtime
+* Operating System
+* Servers
+* Infrastructure
+
+### Example
+
+* Azure App Service
+* Google App Engine
+* AWS Elastic Beanstalk
+
+```text
+You
+ ↓
+Code → Data
+
+Cloud Provider
+ ↓
+Runtime → OS → Infrastructure
+```
+
+> **PaaS = Focus on your code**
+
+---
+
+## 3. SaaS — Software as a Service
+
+### Definition
+
+**SaaS provides ready-to-use software over the internet.**
+
+### You Manage
+
+* Mainly usage and configuration
+
+### Cloud Provider Manages
+
+* Application
+* Platform
+* Operating System
+* Infrastructure
+
+### Example
+
+* Gmail
+* Microsoft 365
+* Salesforce
+* Google Docs
+
+```text
+You
+ ↓
+Use the Software
+
+Cloud Provider
+ ↓
+Manages Everything
+```
+
+> **SaaS = Just use the software**
+
+---
+
