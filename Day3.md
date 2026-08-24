@@ -122,6 +122,6 @@ Automatically remove extra servers
 
 ## Easy Way to Remember
 
-> **Scalability = Grow when more capacity is needed.**
+> **Scalability = Long-term growth 📈**
 
-> **Elasticity = Automatically grow and shrink based on demand.**
+> **Elasticity = Current/real-time demand 🔄.**
